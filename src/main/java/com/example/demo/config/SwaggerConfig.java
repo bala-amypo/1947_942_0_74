@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.APARTMENT_FACILITY_BOOKING_SYSTEM.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.servers.Server;
@@ -14,7 +14,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 // You need to change the port as per your server
                 .servers(List.of(
-                        new Server().url("https://9564.pro604cr.amypo.ai/")
+                        new Server().url("https://3306")
                 ));
         }
 }

@@ -43,6 +43,4 @@ public class Studentity{
     public void setCgpa(){
         return cgpa;
     }
-
-
 }

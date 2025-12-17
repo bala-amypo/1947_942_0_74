@@ -1,46 +1,46 @@
-public class Studentity{
+package com.example.demo.entity;
+
+public class Studententity {
 
     private int id;
     private String name;
     private String email;
     private float cgpa;
 
-    public Studentity(int id, String name, String email, float cgpa){
+    
+    public Studententity(int id, String name, String email, float cgpa) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.cgpa = cgpa;
     }
 
-    public Studentity(){
-
+    public Studententity(){
+        
     }
 
-    public int getId(){
-        this.id = id;
-    }
-    public void setId(){
+    public int getId() {
         return id;
     }
-
-    public int getName(){
-        this.name = name;
+    public void setId(int id) {
+        this.id = id;
     }
-    public void setName(){
+    public String getName() {
         return name;
     }
-
-    public int getEmail(){
-        this.email = email;
+    public void setName(String name) {
+        this.name = name;
     }
-    public void setEmail(){
+    public String getEmail() {
         return email;
     }
-
-    public int getCgpa(){
-        this.cgpa = cgpa;
+    public void setEmail(String email) {
+        this.email = email;
     }
-    public void setCgpa(){
+    public float getCgpa() {
         return cgpa;
     }
+    public void setCgpa(float cgpa) {
+        this.cgpa = cgpa;
+    }       
 }
